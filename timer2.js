@@ -6,8 +6,6 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-let time = 0;
-
 rl.on('line', (key) => {
   if (key === '\u0003') {
     rl.close();
